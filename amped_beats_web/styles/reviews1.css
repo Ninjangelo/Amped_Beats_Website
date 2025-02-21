@@ -1,0 +1,147 @@
+html, body {
+    background-color: #282828;
+    margin: 0;
+	border: 0;
+	padding: 0;
+    position: relative;
+	/*border: 1px solid red;*/   /* Used to check the Whole Page Dimensions */
+}
+
+nav {
+    color: black;
+}
+
+#logoText {
+    font-family: "Black Ops One", sans-serif;
+    font-size: 200%;
+}
+
+#section1 {
+    place-items: center;
+    padding: 60px;
+}
+
+#userSelectionBlock {
+    background-color: #DCA8FA;
+    color: white;
+    font-family: "Jockey One", serif;
+    height: 100%;
+    width: 65%;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    filter: drop-shadow(2px 6px 2px black);
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 200%;
+}
+
+#buttonBlock {
+    height: 170px;
+}
+
+.userSelectionButton {
+    display: inline-block;
+    background-color: #DCA8FA;
+    color: white;
+    font-family: "Jockey One", serif;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 3%;
+}
+
+#entryBox {
+    width: 98%;
+    height: 220px;
+    display: block; 
+    text-align: left; 
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 0.9%;
+    margin-left: 1%;
+    resize: none; 
+    overflow-y: auto; 
+}
+
+
+#registerAccountButton {
+    align-items: center;
+    text-align: center;
+    background-color: #DCA8FA;
+    font-family: "Jockey One", serif;
+    font-size: 100%;
+    width: 15%;
+    padding: 2%;
+    
+    border-color: white;
+	border-radius: 10px;
+    color: white;
+}
+
+#registerAccountButton:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* Styling for stars */
+.star-rating {
+    
+    direction: rtl; 
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  
+  .star-rating input {
+    display: none;
+  }
+  
+  
+  .star-rating label {
+    font-size: 2rem; 
+    color: #ccc; 
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color: gold;
+  }
+  
+  
+  .star-rating input:checked ~ label {
+    color: gold;
+  }
+
+  #footer {
+    width: 100%;
+    position:static;
+    left: 0;
+    bottom: 0;  
+    text-align: center; 
+    box-sizing: border-box; 
+    background-color: #282828;
+    
+  }
+  
+.nav-links a {
+    font-size: 16px;
+    transition: color 0.3s;
+    text-decoration: underline;
+ }
+  

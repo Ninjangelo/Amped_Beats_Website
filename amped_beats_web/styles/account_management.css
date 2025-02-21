@@ -1,0 +1,153 @@
+/* General Page Styling */
+html, body {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/* Logout Button Styling - Target only the navbar logout button */
+.navbar form button {
+    background-color: #DCA8FA;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar form button:hover {
+    background-color: #b674d0;
+}
+
+#logoText {
+    font-family: "Black Ops One", sans-serif;
+    font-size: 200%;
+}
+/* Headings */
+h1 {
+    color: #DCA8FA;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: "Jockey One", sans-serif;
+    color: white;
+}
+
+/* Form Styling */
+#form_main {
+    background-color: #1e1e1e;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #DCA8FA;
+    box-shadow: 3px 3px 10px rgba(220, 168, 250, 0.3);
+    font-family: "Jockey One", sans-serif;
+}
+
+label {
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #DCA8FA;
+    background-color: #282828;
+    color: white;
+    font-size: 16px;
+}
+
+/* Submit Button in Forms */
+form input[type="submit"] {
+    background-color: #DCA8FA;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b674d0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
+
+/* Back to Dashboard Button */
+.back-button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #DCA8FA;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #b674d0;
+}
+
+/* Success/Error Messages */
+.message {
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.error {
+    background-color: #FF5733;
+    color: white;
+}
+
+#dropDownSection {
+    margin: 5%;
+    text-align: center;
+}
+
+select {
+    width: 30%;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 0.9%;
+}

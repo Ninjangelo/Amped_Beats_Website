@@ -1,0 +1,77 @@
+/* General Page Styling */
+html, body {
+    background-color: #282828;
+    text-align: center;
+    margin: 0;
+  border: 0;
+  padding: 0;
+  /*border: 1px solid red;*/   /* Used to check the Whole Page Dimensions */
+  }
+
+
+nav {
+  color: black;
+}
+
+#logoText {
+  font-family: "Black Ops One", sans-serif;
+  font-size: 200%;
+}
+
+#section1 {
+  border: 1px solid black;
+  place-items: center;
+  padding: 60px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#personalTitle {
+  font-family: "Jockey One", serif;
+  color: white;
+  font-size: 170%;
+  font-style: normal;
+}
+
+/* Dashboard Grid Layout */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+/* Styling for the Blocks */
+.dashboard-block {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    background-color: #DCA8FA;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+/* Hover Effect */
+.dashboard-block:hover {
+    transform: scale(1.05);
+    background-color: #DCA8FA;
+}
+
+/* Center the third block below the first two */
+.booking-form {
+    grid-column: span 2; /* Makes it span across both columns */
+    justify-self: center; /* Centers it */
+}

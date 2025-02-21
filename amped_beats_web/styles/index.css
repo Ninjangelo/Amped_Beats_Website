@@ -1,0 +1,228 @@
+html, body {
+    width: 100%;
+    background-color: #282828;
+    margin: 0;
+	border: 0;
+	padding: 0;
+	/*border: 1px solid red;*/   /* Used to check the Whole Page Dimensions */
+}
+
+nav {
+    color: black;
+}
+
+#logoText {
+    font-family: "Black Ops One", sans-serif;
+    font-size: 200%;
+}
+
+
+#videoContainer {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+
+#videoVisual {
+    position: relative;
+    /*display: inline-block;*/
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+
+#videoText1 {
+    position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      font-family: "Black Ops One", serif;
+      font-size: 700%;
+      font-style: normal;
+      width: 100%;
+}
+
+#videoText2 {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Michroma", serif;
+    font-size: 170%;
+    font-style: normal;
+    width: 100%;
+}
+
+
+div#videoButtons {
+    list-style: none;
+    padding: 0;
+	margin: 0;
+    position: absolute;
+    top: 75%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center the text */
+    text-align: center;
+    font-family: "Jockey One", serif;
+    font-size: 170%;
+    font-style: normal;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+div#videoButtons a {
+    display: inline-block;
+    align-items: center;
+    background-color: #DCA8FA;
+    width: 15%;
+	height: 6%;
+	margin-right: 50px;
+	margin-left: 50px;
+    padding: 28px;
+	border-radius: 10px;
+    color: white;
+}
+
+#videoButtons a:hover {
+    color: black;
+	background-color: white;
+}
+
+
+#infoContainer1 {
+    width: 100%;
+    height: 500px;
+	color: white;
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("../media/vecteezy_cool-dj-with-headphones-illustration_24308318 - Copy.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    text-align: right;
+    
+}
+#h1 {
+    font-family: "Jockey One", serif;
+    padding-top: 150px;
+    padding-right: 80px;
+    font-size: 60px;
+}
+
+#a{
+    display: inline-block;
+    align-items: end;
+    margin: 2%;
+    padding: 2%;
+    margin-right: 25%;
+    background-color: #DCA8FA;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    border-radius: 10px;
+    
+}
+
+#a:hover {
+    background-color: white;
+    color: black;
+}
+
+#h2 {
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+    font-family: "Michroma", serif;
+}
+
+#Photos {
+    background-color: #DCA8FA;
+}
+
+#Photos1 {
+    background-color: #282828;
+}
+
+
+#colitem{
+    background-color: #000000;
+}
+
+#container{
+    background-color: #662020;
+}
+
+#row{
+    text-align: center;
+    font-family: "Jockey One", sans-serif;
+    margin-top: 10px;
+    color: #FFFFFF
+
+}
+h1 {
+    font-family: "Black Ops One", sans-serif;
+    color:#FFFFFF
+}
+
+.card {
+    background-color: #333333;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 2rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #DCA8FA;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "Jockey One", sans-serif;
+}
+
+.card-text {
+    color: white;
+    font-family: "Jockey One", sans-serif;
+}
+
+.card:hover {
+    background-color: white;
+}
+
+.card:hover .card-title, .card:hover .card-text {
+    color: black;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+#footer {
+    width: 100%;
+    position:static;
+    left: 0;
+    bottom: 0;  
+    text-align: center; 
+    box-sizing: border-box; 
+    background-color: #282828;
+    
+  }
+.nav-links a {
+    font-size: 16px;
+    transition: color 0.3s;
+    text-decoration: underline;
+ }
+ 
+
+

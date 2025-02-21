@@ -1,0 +1,106 @@
+html, body {
+  background-color: #282828;
+  margin: 0;
+border: 0;
+padding: 0;
+/*border: 1px solid red;*/   /* Used to check the Whole Page Dimensions */
+}
+
+nav {
+  color: black;
+}
+
+
+#logoText {
+  font-family: "Black Ops One", sans-serif;
+  font-size: 200%;
+}
+
+
+#formContainer {
+  border: 1px solid black;
+  padding: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+div#formContainer form {
+  background-color: #DCA8FA;
+  padding: 2%;
+  border-radius: 10px;
+  filter: drop-shadow(2px 6px 2px black);
+}
+
+div#formContainer h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 2%;
+  font-family: "Jockey One", serif;
+  text-decoration: underline;
+  color: white;
+}
+
+div#formContainer div {
+  text-align: center;
+}
+
+div#formContainer label {
+  font-family: "Jockey One", serif;
+  color: white;
+  font-size: 150%;
+  
+}
+
+#entryBox {
+  width: 30%;
+  display: auto;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 0.9%;
+  margin-left: 1%;
+}
+
+#loginButton {
+  align-items: center;
+  text-align: center;
+  background-color: #DCA8FA;
+  font-family: "Jockey One", serif;
+  font-size: 100%;
+  width: 15%;
+  padding: 2%;
+  margin-left: 45%;
+  border-color: white;
+border-radius: 10px;
+  color: white;
+}
+
+#loginButton:hover {
+  background-color: black;
+  color: white;
+}
+
+#back-button {
+  font-family: "Jockey One", serif;
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  padding: 1%;
+  background-color: #DCA8FA;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#back-button:hover {
+color: black;
+background-color: white;
+}
+
+#errorMessage {
+  color: red;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}

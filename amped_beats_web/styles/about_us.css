@@ -1,0 +1,74 @@
+html, body {
+    background-color: #282828;
+    margin: 0;
+	border: 0;
+	padding: 0;
+    position: relative;
+	/*border: 1px solid red;*/   /* Used to check the Whole Page Dimensions */
+}
+
+nav {
+    color: black;
+}
+
+#logoText {
+    font-family: "Black Ops One", sans-serif;
+    font-size: 200%;
+}
+
+h1, h2 {
+    font-family: "Black Ops One", sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.about-us-box {
+    background-color: #DCA8FA;
+    color: white;
+    font-family: "Jockey One", serif;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 3% 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.brand-name {
+    font-family: 'Black Ops One', serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+
+
+#footer {
+    width: 100%;
+    position:static;
+    left: 0;
+    bottom: 0;  
+    text-align: center; 
+    box-sizing: border-box; 
+    background-color: #282828;
+    
+  }
+.nav-links a {
+    font-size: 16px;
+    transition: color 0.3s;
+    text-decoration: underline;
+ }
