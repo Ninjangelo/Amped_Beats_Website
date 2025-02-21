@@ -38,5 +38,5 @@ A Website visitor with either being in the position of utilising the service for
 ![importing the SQL script](instruction_images/sql_importsuccess(1).png)
 ![importing the SQL script](instruction_images/sql_importsuccess(2).png)<br/><br/>
 8. In a new browser tab, enter the in the address **"127.0.0.1/amped_beats_web"** in order to access the website from home page.<br/>
-![loading the website from home page](instruction_images/webSample.png)<br/><br/>
+![loading the website from home page](readme_images/webSample.png)<br/><br/>
 
