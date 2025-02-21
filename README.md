@@ -15,9 +15,8 @@ Overall, this Website Application Solution is aimed to help both Customers and D
 
 # Current Features
 - <ins>**Register a Customer or DJ**</ins><br/>
-A Website visitor with either being in the position of utilising the service for booking a
-<br/>
-<br/>
+A Website visitor with either being in the position of utilising the service for booking a<br/>
+
 - <ins>**Register a Customer or DJ**</ins><br/>
 A Website visitor with either being in the position of utilising the service for booking a
 
