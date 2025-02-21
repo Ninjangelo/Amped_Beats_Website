@@ -1,7 +1,8 @@
-<ins>**NOTE:**</ins> This project is planned for potential revisions due to plans for better enhancing the idea. Amped Beats Website Application is in usable state for now.
+# <<<<<< UPDATES >>>>>>
+<ins>**19/02/2025 - NOTE:**</ins> This project is planned for potential revisions due to plans for better enhancing the idea. Amped Beats Website Application is in usable state for now.
 
 # What is this Project?
-Amped Beats is a University-Based Website Application Project combining the use of Front-End and Back-End to carry out the idea of having a website that enables customers with the intention to book for an available DJ (Disc Jockey's) from the collection of DJs displayed on the platform that is suited to their preferences on the event or agenda that they are hosting for the DJ that they decide to book for.
+Amped Beats is a University-Based Website Application Project combining the use of Front-End and Back-End to carry out the idea of having a website that enables customers with the intention to book for an available DJ (Disc Jockey) from the collection of DJs displayed on the platform that is suited to their preferences on the event or agenda that they are hosting for the DJ that they decide to book for.
 <br/>
 Additionally, whilst customers benefit from the the idea, we have also entailed the website application to allow DJs of many categories such as those that are self-employed or even label-owned to be able to register and advertise their services and products on the platform.
 <br/>
@@ -12,7 +13,8 @@ Both Customers and DJs are able to track their bookings and view them in detail 
 Overall, this Website Application Solution is aimed to help both Customers and DJs satisfy their ease of finding suitable DJs to provide service for their events and handle their bookings and communications all in one environment instead of having to utilise separate services on different platforms.
 
 # Current Features
-[Insert Features]
+- <ins>**Register a Customer or DJ**</ins><br/>
+A Website visitor with either being in the position of utilising the service for booking a
 
 # Prerequisits
 
