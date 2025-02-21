@@ -13,12 +13,14 @@ Both Customers and DJs are able to track their bookings and view them in detail 
 <br/>
 Overall, this Website Application Solution is aimed to help both Customers and DJs satisfy their ease of finding suitable DJs to provide service for their events and handle their bookings and communications all in one environment instead of having to utilise separate services on different platforms.
 
-# Current Features
+# Features
+### Working Features
 - <ins>**Register a Customer or DJ**</ins><br/>
 A Website visitor with either being in the position of utilising the service for booking a<br/>
 
 - <ins>**Login as a Customer | DJ | Admin**</ins><br/>
 A Website visitor with either being in the position of utilising the service for booking a
+### Under-Development Features
 
 # Prerequisits
 1. Download Latest Version of XAMPP [here](https://www.apachefriends.org/download.html)<br/>
