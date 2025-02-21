@@ -15,10 +15,10 @@ Overall, this Website Application Solution is aimed to help both Customers and D
 
 # Features
 ### Working Features
-- <ins>**Register a Customer or DJ**</ins><br/>
+- <ins>**Register Process**</ins><br/>
 A Website visitor with either being in the position of utilising the service for booking a<br/>
 
-- <ins>**Login as a Customer | DJ | Admin**</ins><br/>
+- <ins>**Login Process**</ins><br/>
 A Website visitor with either being in the position of utilising the service for booking a
 ### Under-Development Features
 
