@@ -3,11 +3,6 @@
     |          AMPED   BEATS            |
     |        DATABASE  SCRIPT           |
     -------------------------------------
-    Group Members:
-    - Mohamed Abraar Hamid (Student ID - 23214034)
-    - Adrian Kosowski (Student ID - 23160380)
-    - Haris Ahmed Dadd (Student ID - 23229761)
-    - Angelo Luis Lagdameo (Student ID - 23134228)
 */;
 
 
